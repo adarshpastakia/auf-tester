@@ -1,8 +1,15 @@
 <template>
   <ui-page page-title="Page">
     <ui-container fluid>
-      <h1>${message}</h1>
-      <p><span innerhtml.bind='"+971553182424" | phoneHtml'></span></p>
+
+      <ui-row>
+        <ui-col size="6">
+          <h1>${message}</h1>
+        </ui-col>
+        <ui-col size="6">
+          <p><span innerhtml.bind='"+971553182424" | phoneHtml'></span></p>
+        </ui-col>
+      </ui-row>
     </ui-container>
   </ui-page>
 </template>

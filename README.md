@@ -1,21 +1,31 @@
-# `test`
+# `aurelia-ui-framework tester`
 
-This project is bootstrapped by [aurelia-cli](https://github.com/aurelia/cli).
+## Build aurelia-ui-framework
 
-For more information, go to https://aurelia.io/docs/cli/webpack
+```shell
+git clone https://github.com/adarshpastakia/aurelia-ui-framework.git
+
+cd aurelia-ui-framework
+
+npm i
+
+npm run dist
+
+npm link
+```
 
 ## Run dev app
 
-Run `au run`, then open `http://localhost:8080`
+```shell
+git clone https://github.com/adarshpastakia/auf-tester.git
 
-To open browser automatically, do `au run --open`.
+cd auf-tester
 
-To change dev server port, do `au run --port 8888`.
+npm i
 
-To enable Webpack Bundle Analyzer, do `au run --analyze`.
+npm link aurelia-ui-framework
 
-To enable hot module reload, do `au run --hmr`.
+npm start
+```
 
-## Build for production
-
-Run `au build --env prod`.
+Access application at `http://localhost:9000`
